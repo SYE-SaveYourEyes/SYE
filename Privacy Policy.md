@@ -1,54 +1,117 @@
-Privacy Policy
-SYE – Save Your Eyes
-Effective Date: 25/03/26
+# SYE – Save Your Eyes
 
-Overview
-SYE is built on a simple principle: your data stays on your device. We do not collect, store, transmit, or sell any personal information. Everything the app does happens locally on your iPhone.
+## Privacy Policy
 
-What SYE does not do
+**Effective Date:** 25/03/26
 
-Does not collect any personal information
-Does not have servers or a backend
-Does not transmit any data over the internet
-Does not use analytics, tracking, or advertising SDKs
-Does not sell, share, or license any data to third parties
-Does not store screen time data outside your device
-Does not access your contacts, camera, microphone, location, or photos
+---
 
+## Overview
 
-Screen Time and Family Controls
-SYE uses Apple's Screen Time framework (FamilyControls, ManagedSettings, and DeviceActivity) to provide app blocking and interruption features. This requires you to grant Screen Time permission when you first open the app.
-This permission allows SYE to:
+SYE – Save Your Eyes (“SYE”, “we”, “our”, or “us”) is designed with privacy as a core principle. We do **not collect, store, or share any personal data**. All functionality operates entirely on your device.
 
-Shield selected apps so they show a pause or block screen
-Monitor app usage patterns to trigger notifications
-Schedule timed app blocks
+---
 
-All of this processing happens entirely on your device using Apple's framework. SYE never reads, stores, or transmits your screen time data. The data is processed by Apple's operating system and never passes through any SYE server because no SYE server exists.
+## Data Collection
 
-App Group storage
-SYE stores your preferences and block settings in an App Group container on your device (group.com.company.sye). This is a local storage mechanism shared between the main app and its extensions (shield screen, notifications). This data never leaves your device.
-Information stored locally includes:
+**We do not collect any personal information.**
 
-Which apps you have assigned to preset block slots
-Active block timers and end times
-Apps you have added to Soft Interruptions
-Notification preferences
-Expected Phone Use mode and manual hours entry
+This includes, but is not limited to:
 
+* Name, email address, or contact details
+* Location data
+* Device identifiers
+* Usage analytics
+* Screen Time data
 
-Notifications
-If you enable notifications, SYE schedules local notifications on your device. These are generated and delivered entirely by your device's operating system. No notification data passes through any external server.
+SYE does not use third-party analytics tools, tracking systems, or advertising frameworks.
 
-Children
-SYE does not knowingly collect information from anyone, including children under 13. Because we collect no data at all, there is nothing to differentiate by age.
+---
 
-Third-party services
-SYE does not integrate any third-party SDKs, analytics tools, advertising networks, or crash reporting services.
+## How SYE Works
 
-Changes to this policy
-If we update this policy, the new version will be available in the app and will show a revised effective date. Continued use of the app after changes constitutes acceptance.
+SYE uses Apple’s Screen Time framework to provide its features, including:
 
-Contact
-If you have questions about this privacy policy, contact us at:
+* App blocking (Quick App Blocks)
+* Soft interruption screens
+* Screen Time-based notifications
+
+All Screen Time data and permissions are managed entirely by Apple on your device. SYE does not have access to this data outside of what is necessary to enable functionality locally.
+
+---
+
+## Data Storage
+
+All app settings and configurations:
+
+* Are stored locally on your device
+* Are not transmitted to any external servers
+* Are not backed up or transferred outside Apple’s system
+
+If you uninstall SYE, all app data is permanently deleted.
+
+---
+
+## Notifications
+
+SYE may send local notifications related to Screen Time usage thresholds.
+These notifications:
+
+* Are generated entirely on-device
+* Do not involve any external servers
+* Do not contain or transmit personal data
+
+---
+
+## Third-Party Services
+
+SYE does **not** integrate with:
+
+* Analytics providers
+* Advertising networks
+* External APIs or servers
+
+The app relies solely on Apple’s native frameworks.
+
+---
+
+## Children’s Privacy
+
+SYE does not collect any data from users of any age.
+The app is safe for use by children and does not include tracking, profiling, or data collection of any kind.
+
+---
+
+## Security
+
+Because no data is collected or transmitted, there is no risk of your personal information being exposed through SYE. All functionality is handled securely within Apple’s operating system.
+
+---
+
+## Changes to This Policy
+
+We may update this Privacy Policy to reflect changes in features or legal requirements.
+Any updates will be reflected by a revised “Effective Date” at the top of this document.
+
+---
+
+## Contact
+
+If you have any questions about this Privacy Policy, please contact:
+
 syecontact.app@gmail.com
+
+---
+
+## Summary
+
+SYE is built to be simple and private:
+
+* No data collection
+* No tracking
+* No servers
+* No analytics
+
+Your usage stays entirely on your device — always.
+
+---
