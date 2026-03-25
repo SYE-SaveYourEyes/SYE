@@ -1,60 +1,133 @@
-SYE (Save Your Eyes) — Support & Help
-Thank you for using SYE, a digital wellbeing app designed to help reduce screen fatigue and promote healthier digital habits.
-We’re here to ensure you get the best possible experience.
+# SYE Support Guide
 
-🕐 Support Availability Notice
-Important: From November 25, 2025 to January 25, 2026, our support team will be unavailable due to scheduled travel and maintenance.
-During this time:
-Response times may be delayed by up to several weeks.
-Some issues or requests may not receive immediate replies.
-Feature requests and bug reports will still be recorded and reviewed upon our return.
-We appreciate your patience and understanding during this short break.
+**Version 1.0**
+**Last updated: 25/03/26**
 
-📩 Contact Information
-Support Email: support@saveyoureyes.app
-Response Window: Typically within 2–5 business days, except during the above travel period.
+---
 
-💬 Frequently Asked Questions (FAQ)
-❓ 1. Why aren’t my eye rest reminders working?
-Please ensure notifications are enabled for SYE in your iPhone’s Settings → Notifications → SYE.
-Also, verify that Screen Time and Family Controls permissions are granted under Settings → Screen Time → Content & Privacy Restrictions → App Limits.
+## Frequently Asked Questions
 
-❓ 2. My blocking feature isn’t working correctly.
-Blocking requires Family Controls authorization.
-Open the app → go to Settings → Permissions → tap Grant Screen Time Access and follow the system prompts.
+### Getting Started
 
-❓ 3. How can I restore my premium subscription?
-If you’ve previously purchased premium:
-Open SYE → Settings → Premium
-Tap Restore Purchases
-Make sure you’re signed in with the same Apple ID used for the original purchase.
+**Why does SYE ask for Screen Time permission?**
+SYE uses Apple’s Screen Time framework to block and pause apps. Without this permission, the app cannot shield apps or display interruption screens. The permission is granted through Apple’s system prompt and can be revoked anytime in:
+Settings → Screen Time
 
-❓ 4. Can SYE improve my eyesight or replace medical advice?
-No. SYE is not a medical application and does not diagnose, treat, or cure any vision or health condition.
-It’s designed to support healthy screen habits, not replace professional medical advice.
+**Does SYE work on all iPhones?**
+SYE requires iOS 16 or later. Some Screen Time features may behave differently on older devices. For best performance, use the latest iOS version.
 
-❓ 5. I found a bug — how do I report it?
-Please email us with:
-A brief description of the issue
-Your device model and iOS version
-Your app version (found under Settings → About)
-Send your report to support@saveyoureyes.app.
+**Does SYE work on iPad?**
+SYE is designed and tested for iPhone. iPad may work but is not officially supported in version 1.0.
 
-❓ 6. How do I delete my account or data?
-Inside the app, go to:
-Settings → Account → Delete Account
-This permanently removes your data from our servers (Firestore) and your device.
+**I granted Screen Time permission but still see the permission screen.**
 
-❓ 7. What if I don’t receive my verification or password reset email?
-Check your Spam or Promotions folder.
-If still missing, resend it from within the app or contact us directly at our support email.
+* Fully close and reopen the app
+* Check Settings → Screen Time to confirm permission is active
+* If using Family Sharing, a parent/guardian may need to approve access
 
-🧠 Additional Resources
-Privacy Policy: https://github.com/SYE-SaveYourEyes/SYE/blob/main/Privacy%20Policy.md
-Terms of Service: https://github.com/SYE-SaveYourEyes/SYE/blob/main/Terms%20Of%20Service.md
-Update Log : https://github.com/SYE-SaveYourEyes/SYE/blob/main/Update%20Log.md
+---
 
-👥 Support Team
-Support Name: SYE Support
-Organization: Save Your Eyes (SYE)
-Email: syecontact.app@gmail.com
+## Quick App Blocks (Function 2)
+
+**Why do I need to select an app when I first tap a preset?**
+Each preset slot must be linked manually due to Apple’s privacy requirements. This is a one-time setup per slot.
+
+**I tapped a preset and got a blank screen.**
+This is a known first-tap issue after app restart. Tap again and it will load correctly.
+
+**My block isn’t working.**
+Check:
+
+* Screen Time permission is active
+* The selected app is installed
+* The block shows as active in the SYE card
+
+If needed, reassign the preset using the customise (⊞) button.
+
+**The block ended at the wrong time.**
+Timers may vary by 1–5 minutes due to system limitations in Apple’s DeviceActivity framework.
+
+**My presets disappeared after reinstalling.**
+This is expected. Apple does not allow Screen Time tokens to be backed up. You must reassign presets.
+
+**Can I block multiple apps?**
+Yes. All five preset slots work independently.
+
+**Can I cancel a block early?**
+Yes. Tap **Cancel** next to the active block.
+
+---
+
+## Soft Interruptions (Function 3)
+
+**What’s the difference from Quick App Blocks?**
+
+* Quick App Blocks = hard block
+* Soft Interruptions = optional pause screen
+
+**I enabled it but nothing happens.**
+Check:
+
+* Toggle is ON
+* At least one app is added
+* Screen Time permission is active
+
+Try toggling off/on and reopening the app.
+
+**“Yes I need it” doesn’t open the app.**
+Return to home screen and tap the app again.
+
+**“Go back” does nothing.**
+It returns you to home. The app remains blocked — this is intended.
+
+**App feels slow with many tracked apps.**
+Limit is 10 apps for performance. Remove extras if needed.
+
+**Can I rename apps?**
+Yes. Tap the app name to edit.
+
+---
+
+## Expected Phone Use
+
+**Automatic mode is empty.**
+Data may take up to 24 hours to populate. Use Manual mode meanwhile.
+
+**Manual mode keyboard is slow.**
+Tap directly into the field. Restart the app if needed.
+
+**Projection seems too high.**
+It reflects actual usage over a 61-year span. High usage = higher projection.
+
+**Why 73 years?**
+This is the global average life expectancy used for consistency.
+
+---
+
+## Notifications
+
+**I didn’t receive a notification.**
+Check:
+
+* Notifications enabled in Settings → Notifications → SYE
+* Threshold is set correctly
+* Device was in use
+
+Note: Alerts may be delayed up to 5 minutes.
+
+**Notifications are greyed out.**
+Permission has not been granted. Enable notifications in Settings.
+
+---
+
+## General
+
+**Does SYE work after restart?**
+Yes. Blocks and settings persist.
+
+**Does SYE use data or battery?**
+No internet usage. Battery impact is minimal.
+
+**Found a bug or have a feature request?**
+Contact: syecontact.app@gmail.com
+Include device, iOS version, and issue details.
